@@ -1,0 +1,321 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 12px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+
+.snake {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+    float: left;
+    margin-right: 16px;
+    
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    font-size: 14px;  
+    margin-left: 0;
+    float: right;
+    
+    ;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #008ccf;
+} 
+
+.nav li a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 0 14px;
+}
+
+.nav li a:hover{
+    color: #008ccf;
+    text-decoration: underline;
+}
+
+
+
+.nav button {
+    background-color: #008ccf;
+    color: white;
+    padding: 8px;
+    
+}
+
+
+h1 {
+    clear: both;
+    text-align: center;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin-top: 25px;
+}
+
+p {
+    
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin-top: 25px;
+}
+
+.container0 {
+    display: flex;
+    margin: 16px;
+    justify-content: space-between;
+    
+}
+
+.container0 img {
+    max-width: 100%;
+    min-height: 207px;
+}
+
+.box-1{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    margin: 16px;
+}
+
+.box-1 .cellphone {
+    margin-top: 16px;
+}
+
+.box-1 p {
+    font-size: 16px;
+
+}
+
+.box-2{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    margin: 16px;
+}
+
+.box-2 .hammer {
+    margin-top: 16px;
+}
+
+.box-2 p {
+    font-size: 16px;
+
+}
+.box-3 {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    margin: 16px;
+}
+
+.box-3 .www {
+    margin-top: 16px;
+}
+
+.box-3 p {
+    font-size: 16px;
+
+}
+
+/*content 1 and 2 */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+.container .content {
+    flex: 2;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+
+.content h2 {
+    text-align: center;
+    background: #f3f3f3;
+    padding: 40px 20px;
+    margin: 16px;
+    color: #008ccf;
+}
+
+.content h2:hover {
+    font-size: 25px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    transform: 1000ms;
+}
+
+.content a {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content a:hover {
+    color: purple;
+    text-decoration: none;
+
+}
+
+
+.container .image-container {
+    display: 8;
+    background-color: #f9f9f9;
+}
+
+.website {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.football {
+    max-width: 100%;
+    max-height: 100%;;
+}
+
+.css {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* buttons */
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+button {  
+    background: #008ccf;
+    color: white;
+    -items: center;
+    padding: 20px;
+    font-size: var(--font-size);
+    
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color: #0a2d3e;
+}
+
+.button .a-2 {
+    font-size: .8em;
+}
+
+.a-2 a:hover {
+    text-decoration: none;
+}
+
+
+
+.container-5 {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Testimonials {
+    display: flex;
+    margin: 0 40px;
+    justify-content: center;
+}
+
+.p1 {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.p2 {
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Testimonials1 {
+    display: flex;
+    margin: 0 40px;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px 20px;
+}
+
+.Testimonials1 .p1  {
+    flex: 2;
+    order: 2;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.Testimonials1 .p2 {
+    flex: 1;
+    order: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.end {
+    margin: 30px 0;
+    height: 20px;
+    background-color: blue;
+
+}
+
+
+
+
+
+
+
+
